@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html id="reg">
+
+<head>
+<link rel="stylesheet" type="text/css" href="ryanair.css">
+</head>
+
+<body>
+<ul>
+	<li id="ryan"><img src="images/ryanair_logo.png" id="logo">RYANAIR</li>
+	<li><a href="Registration.html" id="regi">Registration</a></li>
+	<li><a href="Status.html">Status Levels</a></li>
+	<li><a href="Home.html">Home</a></li>
+</ul>
+
+<h1>Registration</h1>
+
+<form>
+	Username</label><label style="color: #ff0000;">*</label><br/>
+	<input type="text" name="usrname" placeholder="Jason23" required="required"><br/>
+	Password<label style="color: #ff0000;">*</label><br/>
+	<input type="password" name="pswd" placeholder="********" required="required" minlength="8"><br/><br/>
+	Title<br/>
+	<select name="title">
+		<option value="ms">Ms.</option>
+		<option value="mr">Mr.</option>
+		<option value="mrs">Mrs.</option>
+		<option value="dr">Dr.</option>
+	</select><br/>
+	First Name<label style="color: #ff0000;">*</label><br/>
+	<input type="text" name="firstname" placeholder="John" required="required"><br/>
+	Last Name<label style="color: #ff0000;">*</label><br/>
+	<input type="text" name="lastname" placeholder="Smith" required="required"><br/>
+	Date of Birth<label style="color: #ff0000;">*</label><br/>
+	<input type="date" name="bdate" required="required"><br/>
+	Address<br/>
+	<input type="text" name="address" placeholder="Sunset Boulevard 78"><br/>
+	Email<label style="color: #ff0000;">*</label><br/>
+	<input type="email" name="mail" placeholder="example@email.com" required="required"><br/>
+	Phone Number<br/>
+	<input type="tel" name="phone" maxlength="10" placeholder="2101234567" pattern="[0-9]+"><br/><br/>
+	<input type="checkbox" id="terms"  required="required">I agree with the <u>terms and conditions</u> *<br/><br/>
+	<input type="submit" name="submit" class="submit"><br/>
+
+<div id="footer">
+	<p>
+		2017 &copy; Ryanair. All rights reserved.
+	</p>
+</div>
+</body>
+
+</html>

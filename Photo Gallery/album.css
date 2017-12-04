@@ -1,0 +1,62 @@
+div.album {
+	width: 800px;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+}
+
+div.list {
+	background-color: green;
+	padding: 4px;
+	position: relative;
+	top: 500px;
+	float: left;
+}
+
+div.list img {
+	width: 155.3px;
+}
+
+#descr1 {
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+	top: 470px;
+}
+
+#descr2 {
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+    top: 1075px;
+    left: 100px;
+}
+
+#descr3 {
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+    top: 1675px;
+    left: 280px;
+}
+
+#descr4 {
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+    top: 2280px;
+    left: 350px;
+}
+
+#descr5 {
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+    top: 2885px;
+    left: 500px;
+}

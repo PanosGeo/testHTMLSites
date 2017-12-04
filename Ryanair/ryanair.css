@@ -1,0 +1,250 @@
+/*Home*/
+@media only screen and (min-width: 414px) {
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #FAFAFA;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 100px; /* bottom = footer height */
+}
+
+h1 {
+	font-size: 150%;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding: 8px;
+	overflow: hidden;
+	background-color: #27408B;
+	border-radius: 10px;
+	margin: 0px 0px 45px 0px;
+}
+
+li {
+	float: right;
+}
+
+li > a {
+	display: block;
+	color: white;
+	padding: 18px;
+	text-decoration: none;
+}
+
+#ryan {
+	color: yellow;
+	float: left;
+	padding: 5px;
+	font-size: 2em;
+	font-family: Helvetica;
+	position: absolute;
+}
+
+#logo {
+	float: left;
+	max-width: 80px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+li > a:hover {
+  	color: yellow;
+}
+
+img {
+	width: 400px;
+	height: 300px;
+	margin: 0;
+	padding: 10px;
+	float: left;
+}
+
+.img_circle {
+	border-radius: 10%;
+}
+
+#regi, #status, #home {
+	font-size: 110%;
+	color: yellow;
+}
+
+#footer {
+	display: inline-block;
+	font-size: 11px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	height: 40px;
+    width: 100%;
+  	text-align: center;
+  	background-color: #27408B;
+  	color: yellow;
+  	position: absolute;
+}
+
+/*Status Levels*/
+
+table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th {
+	color: #808080;
+}
+
+tr:nth-child(odd) {
+	background-color: #DCDCDC;
+}
+
+th, td {
+	padding: 18px;
+	text-align: left;
+	border-right: 1px solid #C0C0C0;
+	color: #555555;
+}
+
+td:hover, td:nth-child(5n+1) {
+	color: black;
+}
+
+/*Registration*/
+
+form {
+	color: #2F4F4F;
+	width: 350px;
+	text-align: left;
+	padding: 0;
+	margin: 0px auto;
+}
+
+input, select {
+	font-family: 'Orator Std';
+	width: 350px;
+	padding: 10px;
+	margin: 5px;
+	outline: none;
+	border-radius: 12px;
+}
+
+#terms {
+	width: auto;
+	border-radius: 12px;
+}
+
+.submit {
+	font-family: 'Orator Std';
+	font-size: 20px;
+	border-radius: 15px;
+	height: 60px;
+	color: yellow;
+	background-color: #27408B;
+}
+input[type="submit"]:hover {
+	background-color: #120A8F;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"], input[type="tel"], select {
+	background-color: #DCDCDC;
+	box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="date"]:focus, input[type="title"]:focus {
+	background-color: #D0D0D0;
+}
+
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 414px) {
+	ul {
+		position: relative;
+		list-style-type: none;
+		padding: 0;
+		overflow: hidden;
+		background-color: #27408B;
+		border-radius: 10px;
+		margin: 0px 0px 25px 0px;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	ul li img {
+		position: relative;
+		width: 20px;
+		height: 20px;
+		top: 0;
+		left: 0;
+		vertical-align: middle;
+	}
+
+	ul li > a {
+		display: block;
+		color: white;
+		padding: 10px;
+		text-decoration: none;
+		vertical-align: middle;
+	}
+
+	li > a:hover {
+  		color: yellow;
+	}
+
+	li {
+		float: left;
+	}
+
+	.img_circle {
+		position: relative;
+		width: auto;
+		height: 200px;
+	}
+
+	p {
+		position: relative;
+	}
+
+	#ryan {
+		text-align: center;
+		color: yellow;
+		padding: 5px;
+		font-size: 2em;
+		font-family: Helvetica;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	html {
+	position: relative;
+	min-height: 100%;
+	}
+
+	#footer {
+	display: inline-block;
+	font-size: 8px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	height: 18px;
+    width: 100%;
+  	text-align: center;
+  	background-color: #27408B;
+  	color: yellow;
+  	position: absolute;
+	}
+}
